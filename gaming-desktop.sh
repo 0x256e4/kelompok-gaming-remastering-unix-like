@@ -4,13 +4,13 @@ desktop() {
        sudo apt install openbox git obconf zsh curl lxappearance
        git clone https://github.com/addy-dclxvi/openbox-theme-collections ~/.themes
        sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-       obconf; lxappearance
        exit
 }
 
 terminal() {
 	wget https://raw.githubusercontent.com/downthecrop/URxvt-themes/master/LightPurpleGreen; mv LightPurpleGreen ~/.Xdefaults
 	sudo update-alternatives --config x-terminal-emulator
+	obconf; lxappearance
 	exit
 }
 
