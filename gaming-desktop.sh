@@ -64,7 +64,7 @@ cat<<EOL
 
 Silahkan Pilih Menu:
 1. Desktop Dependensi
-2. Taskbar
+2. Taskbar + Terminal
 3. Wallpaper (Live)
 4. Gaming
 5. Remastering
@@ -77,7 +77,7 @@ case $pilihan in
 	clear; desktop; clear; echo "berhasil terpasang!"
 	;;
 2)
-	clear; taskbar; clear; echo "berhasil terpasang!"
+	clear; taskbar; clear; terminal; echo "berhasil terpasang!"
 	;;
 3)
 	clear; wallpaper; clear; echo "berhasil terpasang!"
